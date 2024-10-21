@@ -1,10 +1,9 @@
-import Sample from "@/app/components/Sample";
+import Header from "@/app/components/Header/Header";
 
 export default function Home() {
   return (
     <div>
-      <div>hello, world</div>
-      <Sample />
+      <Header />
     </div>
   );
 }
